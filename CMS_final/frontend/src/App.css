@@ -1,0 +1,921 @@
+.katex-city {
+  color :aquamarine;
+}
+
+/* header CSS */
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030; 
+}
+
+body {
+  /* padding-top: 10px;  */
+}
+
+.navbar-custom {
+  background-color: #ffffff; 
+  border-bottom: 1px solid #ddd; 
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: #163365;
+  margin: 0 15px; 
+  text-align: left;
+font-size: normal normal medium 18px/22px Roboto !important;
+letter-spacing: 0px;
+color: #163365;
+opacity: 1;
+}
+.contact-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.search-icon {
+  color: black;
+  margin-right: 10px;
+}
+
+.contact-button {
+  background-color: #163365;
+  border-color: #163365;
+}
+
+.contact-button:hover {
+  background-color: #0d2a6e;
+  border-color: #0d2a6e;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0;
+  display: block;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu:not(.show) {
+  display: none;
+}
+
+.NavTab {
+  margin-right: 20px; 
+}
+.navbar-custom {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item:hover, .nav-item:focus {
+  color: #0094DB;
+}
+
+.navbar-nav .nav-link {
+  color: #163365;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+  color: #0094DB;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.contact-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact-button {
+  background-color: #0094DB;
+  border-color: #0094DB;
+  margin-left: 10px;
+}
+
+.contact-button:hover, .contact-button:focus {
+  background-color: #007bb5;
+  border-color: #007bb5;
+}
+.contact-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.search-icon {
+  color: black;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .dropdown-submenu .dropdown-menu .nav-item {
+  white-space: nowrap;
+}
+
+.dropdown-menu .nav-item:hover, .dropdown-menu .nav-item:focus {
+  background-color: #f1f1f1;
+}
+
+.navbar-custom .nav-item .nav-link:hover,
+.navbar-custom .nav-item .nav-link:focus {
+  background-color: transparent;
+  color: #0094DB;
+}
+
+.nav-item:hover, .nav-item:focus {
+  color: #0094DB;
+  text-decoration: underline;
+  text-decoration-color: #0094DB;
+}
+
+.navbar-nav .nav-link {
+  color: #163365;
+  text-decoration: none; 
+}
+.navbar-nav .nav-link[href="#home"]:hover,
+.navbar-nav .nav-link[href="#about"]:hover,
+.navbar-nav .nav-link[href="#contact"]:hover,
+.navbar-nav .nav-link[href="#blogs"]:hover {
+  color: #0094DB;
+  text-decoration: underline;
+  text-decoration-color: #0094DB;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+  color: #0094DB;
+  text-decoration: underline;
+  text-decoration-color: #0094DB; 
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .contact-button-container {
+    flex-direction: row;
+    margin-left: 0;
+    align-items: flex-start; 
+    margin-top: 10px;
+  }
+
+  .search-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-button {
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px; /* Space between nav items */
+  }
+}
+
+/* footer CSS */
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.footer-logo {
+  max-width: 100%;
+}
+
+.footer-section p {
+  text-align: left;
+font: normal normal normal 14px/19px Roboto;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+
+.footer-section h5 {
+  text-align: left;
+font: normal normal bold 24px/29px Inter;
+letter-spacing: 0px;
+color: #163365;
+opacity: 1;
+}
+
+.footer-section ul {
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-align: left;
+font: normal normal normal 14px/30px Roboto;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Use gap for spacing between icons */
+}
+
+.social-icons a {
+  font-size: 24px; 
+  margin-right: 10px; 
+  text-decoration: none; 
+}
+
+.social-icons a.facebook { color: #3b5998; }  
+.social-icons a.twitter { color: #1da1f2; }   
+.social-icons a.linkedin { color: #0077b5; }  
+.social-icons a.youtube { color: #ff0000; }   
+.social-icons a.pinterest { color: #bd081c; } 
+.social-icons a.instagram { color: #e4405f; } 
+.social-icons a.reddit { color: #ff4500; }    
+.social-icons a:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+
+.footer p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+
+
+.scroll-top-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-top-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+.footerrow{
+  margin-top: 74px;
+}
+.footer-bottom .text-center {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-bottom .text-right {
+  flex: 0;
+  text-align: right;
+}
+.scroll-top-btn {
+  background-color: #F26836;
+  border-color: white;
+}
+
+
+/* home css */
+.custom-carousel-container {
+  position: relative;
+  text-align: left; /* Align text to the left */
+  color: white;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Adjusted to align text to the left */
+  transform: translateY(-50%);
+  text-align: left; /* Align text to the left */
+}
+.carousel-item img {
+  width: 100%;
+  height: 600px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.carousel-caption h1 {
+  font-size: 75px; /* Increase font size */
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #000000; /* Add text shadow */
+}
+
+.carousel-caption p {
+font-size: 36px;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 3px 6px #000000;
+opacity: 1;
+}
+
+/* .button-container .btn {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+}
+
+.button-container .btn-outline-light {
+  background-color:#0d6efd;
+  border-color: white;
+  color: rgb(12, 12, 12);
+}
+
+.button-container .btn-light {
+  background-color: white;
+  color: black;
+} */
+.transparent-button,
+.white-button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  width: 150px; /* Ensure both buttons have the same width */
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.transparent-button:hover,
+.transparent-button:focus,
+.transparent-button:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: white;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.white-button:hover,
+.white-button:focus,
+.white-button:active {
+  background-color: white;
+  color: black;
+}
+
+
+.button-container .btn {
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 12px 24px; /* Increase button height */
+  margin: 0 10px; /* Add some space between buttons */
+}
+
+.button-container .btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.button-container .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #163365; /* Adjust hover color if needed */
+}
+
+.carousel .carousel-indicators li {
+  background-color: white;
+}
+
+/* Hide the text for next and previous controls */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+/* Ensure only the icons are visible, hide text */
+.carousel-control-prev,
+.carousel-control-next {
+
+}
+
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+  display: none; /* Hide the text for next and previous controls */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3E%3Cpath d="M5.5 0L6.5 1 4 4 6.5 7 5.5 8 1.5 4 5.5 0z"/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3E%3Cpath d="M2.5 0L1.5 1 4 4 1.5 7 2.5 8l4-4-4-4z"/%3E%3C/svg%3E');
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 45px; /* Decrease font size for smaller screens */
+  }
+  
+  .carousel-caption p {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .button-container .btn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 8px 16px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 35px; /* Further decrease font size for very small screens */
+  }
+  
+  .carousel-caption p {
+    font-size: 18px; /* Further decrease font size for very small screens */
+  }
+  
+  .button-container .btn {
+    font-size: 0.875rem; /* Adjust button font size */
+    padding: 6px 12px; /* Adjust button padding */
+  }
+}
+
+/* What we do Session CSS */
+.img{
+  max-width: 100%;
+}
+.wwd1 {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.wwd {
+  margin-top: 40px; 
+  padding: 20px;
+  border-radius: 10px;
+  color: #000000; 
+  
+}
+.wwd h1 {
+  text-align: center;
+font: normal normal bold 72px/95px Roboto Slab;
+letter-spacing: 0px;
+color: #163365;
+opacity: 1;
+  margin-bottom: 40px; 
+} 
+  .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-title {
+  text-align: center;
+  font: normal normal medium 30px/39px Roboto Slab;
+  letter-spacing: 0px;
+  color: #163365;
+  opacity: 1;
+}
+.card-text {
+  text-align: center;
+  font: normal normal normal 18px/28px Roboto;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  overflow: hidden;
+  max-height: 80px;
+  position: relative;
+  transition: max-height 0.2s ease;
+}
+
+.card-text.expanded {
+  max-height: 200px;
+}
+
+.dots {
+  color: #333333;
+}
+
+.more {
+  display: inline;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: auto;
+}
+
+.custom-button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f26836;
+  color: #f26836;
+  opacity: 1;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #f26836;
+  color: #ffffff;
+  outline: none;
+}
+
+
+/* our client */
+.image-container {
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.image-container img {
+  width: 100%; /* Make the image full-width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below the image */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  color: white; /* Text color */
+  padding: 20px 0; /* Top and bottom padding */
+}
+
+header h1, header h2 {
+  margin: 0; /* Remove default margin */
+  font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+header h1 {
+  font-size: 2.5rem; /* Font size for main heading */
+}
+
+header h2 {
+  font-size: 1.5rem; /* Font size for subheading */
+}
+
+/* Why Bestowal */
+.new-section {
+  padding: 4rem 0; /* Adds padding at the top and bottom of the section */
+  background-color: #f5f5f5; /* Light background color for the section */
+}
+
+.new-text {
+  margin-bottom: 2rem; /* Adds space below the text container */
+}
+
+.new-text h1 {
+  text-align: center;
+  font: normal normal bold 72px/95px Roboto Slab;
+  letter-spacing: 0px;
+  color: #163365;
+  opacity: 1;
+}
+
+.new-text p {
+  text-align: center;
+font: normal normal normal 18px/28px Roboto;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+.card-title {
+  text-align: center;
+  font: normal normal medium 30px/39px 'Roboto Slab', serif;
+  letter-spacing: 0px;
+  color: #163365;
+  opacity: 1;
+}
+
+.card-text {
+  text-align: center;
+  font: normal normal normal 18px/28px 'Roboto', sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+/* Section4 */
+.custom-section {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-col .img-fluid {
+  max-width: 100%;
+}
+
+.text-col {
+  text-align: left;
+}
+
+.header {
+  text-align: left;
+font: normal normal bold 60px/79px Roboto Slab;
+letter-spacing: 0px;
+color: #163365;
+opacity: 1;
+}
+
+.paragraph {
+  text-align: left;
+  font: normal normal normal 24px/36px Roboto Slab;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+/* client section *//* Client section */
+.client-section {
+  background: #f8f9fa; /* Light background color for the section */
+  padding: 60px 0; /* Padding around the section */
+  text-align: center; /* Center align text */
+}
+
+.client-heading {
+  font: normal normal bold 72px/95px Roboto Slab;
+  letter-spacing: 0px;
+  color: #163365;
+}
+
+.client-description {
+  font: normal normal normal 30px/39px Roboto Slab;
+  letter-spacing: 0px;
+  color: #163365;
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%; /* Ensure it takes up the full width */
+}
+
+.marquee-content {
+  display: flex;
+  width: calc(100% * 3); /* Triple the width of the container for continuous effect */
+  animation: marquee 25s linear infinite;
+}
+
+.client-logo {
+  margin: 0 15px;
+  height: 50px; 
+  flex-shrink: 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+/* contact CSS */
+.contact-section {
+  background: #163365 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  padding: 60px 0;
+}
+
+.contact-header {
+  text-align: left;
+  font: normal normal bold 45px/60px Roboto Slab;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.contact-description {
+  text-align: left;
+  font: normal normal normal 20px/30px Roboto Slab;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.inputStyle, .inputStyle-textarea {
+  border-radius: 0;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+.input-icon {
+  background-color: #ffffff;
+  border-right: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  color: #6c757d;
+}
+
+.button3 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 0;
+}
+
+.button3:hover {
+  background-color: #0056b3;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .contact-header {
+    font-size: 24px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+  }
+}
+
+
+
+/* carosal */
+/* Custom carousel container */
+/* Custom carousel container */
+.katex-carousel {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Set the desired height */
+  overflow: hidden; /* Hide overflow to ensure only visible images are shown */
+}
+
+.katex-carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Hide overflow for the inner container */
+}
+
+.katex-carousel-items {
+  display: flex;
+  width: 300%; /* 100% per item * 3 items */
+  height: 100%; /* Ensure items fit the container height */
+  animation: slide 9s infinite; /* Slide animation with 9 seconds cycle */
+}
+
+.katex-carousel-item {
+  flex: 0 0 100%; /* Ensure each item takes full width */
+  height: 100%; /* Ensure each item takes full height */
+}
+
+.katex-carousel-item img {
+  width: 100%;
+  height: 100%; /* Ensure image fills the container */
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+.katex-carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Adjusted to align text to the left */
+  transform: translateY(-50%);
+  text-align: left; /* Align text to the left */
+  color: white;
+  z-index: 2; /* Ensure caption is on top of images */
+}
+
+.katex-carousel-caption h1 {
+  font-size: 75px; /* Increase font size */
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #000000; /* Add text shadow */
+}
+
+.katex-carousel-caption p {
+  font-size: 36px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-shadow: 0px 3px 6px #000000;
+  opacity: 1;
+}
+
+/* Button styles */
+.katex-btn {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.katex-btn-light {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.katex-btn-light:hover,
+.katex-btn-light:focus,
+.katex-btn-light:active {
+  background-color: white;
+  color: black;
+}
+
+/* Button container */
+.katex-button-container {
+  margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .katex-carousel-caption h1 {
+    font-size: 45px; /* Decrease font size for smaller screens */
+  }
+  
+  .katex-carousel-caption p {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .katex-btn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 8px 16px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .katex-carousel-caption h1 {
+    font-size: 35px; /* Further decrease font size for very small screens */
+  }
+  
+  .katex-carousel-caption p {
+    font-size: 18px; /* Further decrease font size for very small screens */
+  }
+  
+  .katex-btn {
+    font-size: 0.875rem; /* Adjust button font size */
+    padding: 6px 12px; /* Adjust button padding */
+  }
+}

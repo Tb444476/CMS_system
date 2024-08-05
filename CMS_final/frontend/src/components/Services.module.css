@@ -1,0 +1,166 @@
+/* General Container Styles
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+Background Color Classes */
+/* .bgcolor {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+
+.bgcolors1 {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.bgcolour1 {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+/* Content Styles */
+/* .Content {
+  margin-bottom: 40px;
+}
+
+.Content h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Content p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* About Section Styles */
+/* .aboutusrow {
+  margin-bottom: 40px;
+}
+
+.aboutusrow img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  padding: 20px;
+}
+
+.about h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}  */
+
+/* Vision, Mission, and Value Styles */
+/* .bgcolour1 {
+  padding: 40px 20px;
+}
+
+.bgcolour1 h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bgcolour1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bgcolour1 p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Strategy Section Styles */
+/* .strategy1 {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.strategy h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.listgrp {
+  margin: 0 -15px;
+}
+
+.info1 {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.head1 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.caption1 p {
+  font-size: 16px;
+  color: #555;
+} */ 
+
+/* Responsive Styles
+@media (max-width: 768px) {
+  .Content h2 {
+    font-size: 28px;
+  }
+
+  .Content p {
+    font-size: 16px;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .strategy h2 {
+    font-size: 28px;
+  }
+
+  .info1 {
+    padding: 15px;
+  }
+
+  .head1 h2 {
+    font-size: 20px;
+  }
+
+  .caption1 p {
+    font-size: 14px;
+  }
+} */

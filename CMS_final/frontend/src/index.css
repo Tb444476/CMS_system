@@ -1,0 +1,311 @@
+
+.custom-carousel-container {
+  position: relative;
+  text-align: left; 
+  color: white;
+  background-color: #0044cc;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 10%; 
+  transform: translateY(-50%);
+  text-align: left; 
+}
+
+.carousel-caption h1 {
+  font-size: 75px; 
+  color:crimson;
+  text-shadow: 0px 3px 6px #000000; 
+}
+
+.carousel-caption p {
+  font-size: 36px;
+  letter-spacing: 0px;
+  color:#000000;
+  text-shadow: 0px 3px 6px #000000;
+  opacity: 1;
+}
+
+.button-container {
+  margin-top: 20px; 
+  background-color:darkgray;
+}
+
+.button-container a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  text-decoration: none;
+  color: black; 
+  border: 2px solid white;
+}
+
+.button-container a:hover,
+.button-container a:focus,
+.button-container a:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.transparent-button {
+  background-color: transparent;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.white-button:hover,
+.white-button:focus,
+.white-button:active {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 45px; 
+  }
+  
+  .carousel-caption p {
+    font-size: 24px; 
+    color: #000000;
+  }
+  
+  .button-container a {
+    font-size: 1rem; 
+    padding: 8px 16px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 35px; 
+  }
+  
+  .carousel-caption p {
+    font-size: 18px; 
+  }
+  
+  .button-container a {
+    font-size: 0.875rem; 
+    padding: 6px 12px; 
+  }
+}
+.h2 {
+  color:#003399
+  color(srgb red green blue)
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.header-buttons {
+  margin-top: 1rem;
+}
+
+.header-buttons a {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.carousel {
+  display: flex;
+  overflow: auto;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.carousel-item {
+  flex: 1 0 100%;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.services, .why-bestowal {
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.services h1, .why-bestowal h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.service, .offering {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.service img, .offering img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.service p, .offering p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.read-more {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.read-more:hover {
+  background-color: #555;
+}
+
+.home-container .h1 {
+  background-color: #fff;
+color: aqua;
+}
+
+
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+.home-container header {
+  
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.home-container header h1 {
+  margin: 0;
+  font-size: 2rem; 
+}
+
+
+.home-container h1 {
+  font-size: 1.8rem; 
+  color: #333333; 
+  margin: 20px 0;
+}
+
+
+.home-container p {
+  color: #666666; 
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.home-container a {
+  color: #0044cc; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.home-container a:hover {
+  text-decoration: underline;
+}
+
+
+.se-component {
+  margin: 20px 0;
+}
+
+.se-image-container {
+  text-align: center;
+}
+
+.se-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.read-more, .read-less {
+  display: inline-block;
+  padding: 10px;
+  background-color: #0044cc; 
+  color: #ffffff; 
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1rem; 
+}
+
+.read-more:hover, .read-less:hover {
+  background-color: #003399; 
+}
+
+
+.expanded-content {
+  display: none; 
+}
+
+.expanded-content.show {
+  display: block; 
+}
+
+
+@media (max-width: 768px) {
+  .home-container {
+      padding: 10px; 
+  }
+
+  .home-container header h1 {
+      font-size: 1.5rem;
+  }
+
+  .home-container h1 {
+      font-size: 1.5rem; 
+  }
+}
+.city {
+  color:#61dafb;
+}
