@@ -919,3 +919,124 @@ opacity: 1;
     padding: 6px 12px; /* Adjust button padding */
   }
 }
+
+
+
+/* tejas css */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* ID Styles */
+#tejas {
+  font-weight: bold;
+  color: #333;
+  background-color: #eaeaea;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Class Styles */
+.tejas {
+  font-style: italic;
+  color: #007bff;
+}
+
+.katex {
+  color: #ff5722;
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Video Container */
+.se-component {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.se-video-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+figure {
+  margin: 0;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.vsc-controller {
+  display: none; /* Hide controller if not needed */
+}
+
+/* Textarea Styles */
+#w3review {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Input and Datalist Styles */
+#browser {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+datalist {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ts {
+  font-style: italic;
+  color: #91ff00;
+}

@@ -649,17 +649,21 @@ const AdminPanel = ({ setPages }) => {
             buttonList: [
               ['undo', 'redo', 'bold', 'italic', 'underline', 'strike', 'list', 'align', 'fontSize', 'formatBlock', 'table', 'image', 'link', 'video', 'fullScreen', 'showBlocks', 'codeView', 'preview']
             ],
-            addTagsWhitelist: 'button|template|mark|canvas|label|select|option|input|video|audio|script|iframe',
+            // addTagsWhitelist: 'button|template|mark|canvas|label|select|option|input|video|audio|script|iframe',
+            // attributesWhitelist: {
+            //     all: "button|style|class|data-*|onclick",
+            //     button: 'onclick|type|name|value|class',
+            //     a: 'href|target|rel|class',
+            //     img: 'src|alt|title|width|height|class',
+            //     video: 'src|controls|autoplay|loop|muted|preload|poster|width|height|class',
+            //     audio: 'src|controls|autoplay|loop|muted|preload|class',
+            //     input: 'type|name|value|checked|disabled|readonly|maxlength|size|class',
+            // },
+            addTagsWhitelist: '*', // Allow all tags
             attributesWhitelist: {
-                all: "button|style|class|data-*|onclick",
-                button: 'onclick|type|name|value|class',
-                a: 'href|target|rel|class',
-                img: 'src|alt|title|width|height|class',
-                video: 'src|controls|autoplay|loop|muted|preload|poster|width|height|class',
-                audio: 'src|controls|autoplay|loop|muted|preload|class',
-                input: 'type|name|value|checked|disabled|readonly|maxlength|size|class',
+              all: '*', // Allow all attributes for all tags
             },
-            allowedClassNames: '^se-|_se_|katex|bg-red|text-blue|highlight-yellow|font-bold|italic|underline|font-lg|container|row|col|colgroup|style|flex|grid|custom-button|alert|card|rounded|header|nav|footer|article|body',
+            allowedClassNames: '.*',
           }}
           onImageUploadBefore={onImageUploadBefore}
         />

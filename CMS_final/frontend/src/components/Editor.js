@@ -136,6 +136,7 @@ import 'suneditor/dist/css/suneditor.min.css';
 import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './styles.css';
+import { onImageUploadBefore } from './imageUploadHandler';
 
 function Editor() {
   const [htmlContent, setHtmlContent] = useState('');
@@ -217,25 +218,7 @@ function Editor() {
     window.open(`/${title.toLowerCase()}`, '_blank');
   };
 
-  const editorOptions = {
-    buttonList: [
-      ['font', 'fontSize', 'bold', 'italic', 'underline', 'strike', 'subscript', 'superscript'],
-      ['removeFormat', 'fontColor', 'hiliteColor', 'align', 'list', 'link', 'image', 'video'],
-      ['codeView', 'preview', 'fullScreen', 'indent', 'outdent', 'undo', 'redo'],
-    ],
-    addTagsWhitelist: 'button|template|mark|canvas|label|select|option|input|video|audio|script|iframe|script',
-    attributesWhitelist: {
-      all: "style|class|data-*|onclick",
-      button: 'onclick|type|name|value|class',
-      a: 'href|target|rel|class',
-      img: 'src|alt|title|width|height|class',
-      video: 'src|controls|autoplay|loop|muted|preload|poster|width|height|class',
-      audio: 'src|controls|autoplay|loop|muted|preload|class',
-      input: 'type|name|value|checked|disabled|readonly|maxlength|size|class',
-    },
-    allowedClassNames: '^se-|__se__|katex|bg-red|text-blue|highlight-yellow|font-bold|italic|underline|font-lg|container|row|col|colgroup|style|flex|grid|custom-button|alert|card|rounded|header|nav|footer|article|body',
-  };
-
+  
   return (
     <div className="admin-panel-container">
       <div className="sidebar">
@@ -268,10 +251,20 @@ function Editor() {
       <div className="content">
         <h2>Editor</h2>
         <SunEditor
-          setContents={htmlContent}
-          onChange={handleChange}
-          setOptions={editorOptions}
-        />
+  setContents={htmlContent} // use htmlContent instead of content
+  onChange={setHtmlContent} // use setHtmlContent instead of setContent
+  setOptions={{
+    buttonList: [
+      ['undo', 'redo', 'bold', 'italic', 'underline', 'strike', 'list', 'align', 'fontSize', 'formatBlock', 'table', 'image', 'link', 'video', 'fullScreen', 'showBlocks', 'codeView', 'preview']
+    ],
+    addTagsWhitelist: '*', // Allow all tags
+    attributesWhitelist: {
+      all: '*', // Allow all attributes for all tags
+    },
+    allowedClassNames: '.*',
+  }}
+  onImageUploadBefore={onImageUploadBefore}
+/>
       </div>
     </div>
   );
