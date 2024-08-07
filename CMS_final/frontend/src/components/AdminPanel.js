@@ -211,8 +211,6 @@ const AdminPanel = ({ setPages }) => {
               all: '*', // Allow all attributes for all tags
             },
             allowedClassNames: '.*',
-            imageMultipleFile: true,
-            __allowedScriptTag:true,
           }}
           onImageUploadBefore={onImageUploadBefore}
         />

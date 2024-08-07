@@ -10,7 +10,7 @@ const app = express();
 const port = 5000;
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://tejas_Bhame:Tejas%231234@cluster0.78fhj3m.mongodb.net/suneditor?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://goradsumit28:1234@cluster0.getmulr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 30000, // 30 seconds
