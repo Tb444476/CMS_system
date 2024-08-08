@@ -13,9 +13,9 @@ const NavBar = ({ pages }) => {
               <Link className="nav-link" to={`/${page.title.toLowerCase()}`}>{page.title}</Link>
             </li>
           ))}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/admin">Admin Panel</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
