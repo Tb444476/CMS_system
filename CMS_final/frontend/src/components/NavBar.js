@@ -1,10 +1,11 @@
+// src/components/NavBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = ({ pages }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/admin">MyWebsite</Link>
+      <Link className="navbar-brand" to="/">MyWebsite</Link>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           {pages.map((page, index) => (
@@ -20,6 +21,5 @@ const NavBar = ({ pages }) => {
     </nav>
   );
 };
-
 
 export default NavBar;
