@@ -12,7 +12,35 @@
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Add this line */
+
   align-items: center;
+}
+
+
+.logout-button {
+  width: 100%;
+  text-align: center;
+  margin-top: auto; /* Ensures the button is at the bottom */
+}
+
+.logout-button button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: initial;
+  border: none;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button button:hover {
+  background-color: cornflowerblue;
+  color: black;
 }
 
 .sidebar h2 {
@@ -202,3 +230,116 @@
 .content h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
+/* login */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.auth-container h2 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  margin: 10px auto;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.auth-container h2{ padding-bottom: 15px;     text-align: center;}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  margin: 10px auto;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+.error{ color: #ff0000; margin-bottom: 10px;}

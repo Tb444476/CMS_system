@@ -23,7 +23,7 @@ const Footer = () => {
             <p className="address">
               First floor, Above CSB Bank, Opp. Thyssenkrupp Industry, Near Ambedkar Chowk, Pimpri, Pune - Maharashtra, India - 411 018.
             </p>
-            <h5>+91 94055 30011</h5>
+            <h5>+91 94055 50001</h5>
           </Col>
           <Col md={6} className="footer-section">
             <Row className='footerrow'>
